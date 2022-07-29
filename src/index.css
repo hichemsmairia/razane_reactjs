@@ -1,0 +1,13 @@
+.icon_margin_top_fix {
+    margin-top: -15px ;
+}
+
+.primay_color {
+    color: #406AD8;
+}
+
+@media screen and (max-width: 992px) {
+  .column {
+    flex: 100% !important; /* !important so that it overrides the inline style because by default it has higher priority */
+  }
+}

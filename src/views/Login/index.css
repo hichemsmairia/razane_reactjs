@@ -1,0 +1,41 @@
+.form_item {
+    display: flex;
+    flex-direction: column;
+    background: #E8F0FE;
+    border-radius: 4px;
+    padding: 15px 15px;
+}
+
+.form_item input {
+    margin-top: 5px;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.form_password_item {
+    display: flex;
+    background: #E8F0FE;
+    align-items: center;
+    border-radius: 4px;
+    padding: 15px 15px;
+}
+
+.form_password_item i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.pas_part {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.pas_part input {
+    margin-top: 5px;
+    width: 100%;
+    background : none;
+    outline: none;
+    border: none;
+}
